@@ -34,7 +34,7 @@ const AboutSection = () => {
   const highlights = [
     {
       icon: Users,
-      value: "3M+",
+      value: "1000+",
       label: "Learners Worldwide",
       color: "from-blue-500 to-blue-600"
     },
