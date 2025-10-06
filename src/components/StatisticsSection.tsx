@@ -70,6 +70,10 @@ const StatisticsSection = () => {
   };
 
   const formatNumber = (num: number) => {
+    // Show 1000 as '1000' (not '1.0K')
+    if (num === 1000) {
+      return '1000';
+    }
     if (num >= 1000000) {
       return (num / 1000000).toFixed(1) + 'M';
     }
