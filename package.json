@@ -16,8 +16,7 @@
     "dev:server": "nodemon server.js",
     "dev:client": "vite",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "prepare": "husky install"
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\""
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
